@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./list-render.component.css']
 })
 export class ListRenderComponent implements OnInit {
+  animals = [
+    {name: "Spike", type: 'Cão'},
+    {name: "Tom", type: 'Gato'},
+    {name: "Jerry", type: 'Rato'},
+    {name: "Quacker", type: 'Pato'},
+  ];
 
   constructor() { }
 
