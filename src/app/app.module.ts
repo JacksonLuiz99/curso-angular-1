@@ -9,6 +9,7 @@ import { DirectivesComponent } from './componets/directives/directives.component
 import { IfRenderComponent } from './components/if-render/if-render.component';
 import { EventosComponent } from './components/eventos/eventos.component';
 import { EmitterComponent } from './components/emitter/emitter.component';
+import { ChangerNumberComponent } from './components/changer-number/changer-number.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { EmitterComponent } from './components/emitter/emitter.component';
     DirectivesComponent,
     IfRenderComponent,
     EventosComponent,
-    EmitterComponent
+    EmitterComponent,
+    ChangerNumberComponent
   ],
   imports: [
     BrowserModule,
