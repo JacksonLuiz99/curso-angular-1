@@ -1,1 +1,10 @@
-<p>if-render works!</p>
+<div class="class">
+    <div *ngIf="canshow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique facilis enim nobis nemo animi incidunt eius veritatis sequi, nesciunt quas voluptatem error modi! Animi quia excepturi voluptatem vitae natus ut!</div>
+
+    <h2 *ngIf="name === 'Jackson'; else nameNotFound">Meu nome é Jackson</h2>
+    <ng-template #nameNotFound>
+        <div>
+            <h2>O nome não foi encontrado!</h2>
+        </div>
+    </ng-template>
+</div>
