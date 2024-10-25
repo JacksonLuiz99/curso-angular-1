@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pipes.component.css']
 })
 export class PipesComponent implements OnInit {
+  someText = "TESTANDO PIPE OPETATOR";
+
+  today = new Date();
 
   constructor() { }
 
