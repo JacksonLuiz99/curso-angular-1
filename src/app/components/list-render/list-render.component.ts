@@ -10,13 +10,7 @@ import { ListService } from 'src/app/service/list.service';
   styleUrls: ['./list-render.component.css']
 })
 export class ListRenderComponent implements OnInit {
-  animals: Animal[] = [
-    {name: "Tom", type: 'Gato', age: 5},
-    {name: "Jerry", type: 'Rato', age: 3},
-    {name: "Spike", type: 'Bulldog', age: 6},
-    {name: "Tyke", type: 'Filhote de Bulldog', age: 1},
-    {name: "Quacker", type: 'Filhote de Pato', age: 2},
-  ];
+  animals: Animal[] = [];
 
   animal: Animal = {
     name: 'Teste',
@@ -26,6 +20,7 @@ export class ListRenderComponent implements OnInit {
   animalDetails = ``;
 
   constructor( private listeService: ListService) { }
+  
 
   ngOnInit(): void {
   }
