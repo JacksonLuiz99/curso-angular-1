@@ -1,9 +1,568 @@
 {
-    "animals":[
-    {"id":1, "name": "Tom", "type": "Gato", "age": 5},
-    {"id":2, "name": "Jerry", "type": "Rato", "age": 3},
-    {"id":3, "name": "Spike", "type": "Bulldog", "age": 6},
-    {"id":4, "name": "Tyke", "type": "Filhote de Bulldog", "age": 1},
-    {"id":5, "name": "Quacker", "type": "Filhote de Pato", "age": 2}
+  "animals": [
+    {
+      "id": "1",
+      "name": "Tom",
+      "type": "Gato",
+      "age": 5
+    },
+    {
+      "id": "2",
+      "name": "Jerry",
+      "type": "Rato",
+      "age": 3
+    },
+    {
+      "id": "3",
+      "name": "Spike",
+      "type": "Bulldog",
+      "age": 6
+    },
+    {
+      "id": "4",
+      "name": "Pikachu",
+      "type": "Pokémon",
+      "age": 4
+    },
+    {
+      "id": "5",
+      "name": "Quacker",
+      "type": "Filhote de Pato",
+      "age": 2
+    },
+    {
+      "id": "6",
+      "name": "Snoopy",
+      "type": "Beagle",
+      "age": 7
+    },
+    {
+      "id": "7",
+      "name": "Mickey Mouse",
+      "type": "Rato",
+      "age": 95
+    },
+    {
+      "id": "9",
+      "name": "Bambi",
+      "type": "Cervo",
+      "age": 3
+    },
+    {
+      "id": "11",
+      "name": "Garfield",
+      "type": "Gato",
+      "age": 40
+    },
+    {
+      "id": "12",
+      "name": "Pato Donald",
+      "type": "Pato",
+      "age": 87
+    },
+    {
+      "id": "13",
+      "name": "Woody Woodpecker",
+      "type": "Pica-pau",
+      "age": 75
+    },
+    {
+      "id": "14",
+      "name": "Pingu",
+      "type": "Pinguim",
+      "age": 6
+    },
+    {
+      "id": "19",
+      "name": "Daffy Duck",
+      "type": "Pato",
+      "age": 85
+    },
+    {
+      "id": "20",
+      "name": "Puss in Boots",
+      "type": "Gato",
+      "age": 10
+    },
+    {
+      "id": "21",
+      "name": "Felix the Cat",
+      "type": "Gato",
+      "age": 100
+    },
+    {
+      "id": "22",
+      "name": "Zé Colmeia",
+      "type": "Urso",
+      "age": 62
+    },
+    {
+      "id": "23",
+      "name": "Hello Kitty",
+      "type": "Gato",
+      "age": 45
+    },
+    {
+      "id": "24",
+      "name": "Dino",
+      "type": "Dinossauro",
+      "age": 8
+    },
+    {
+      "id": "25",
+      "name": "Boo",
+      "type": "Gato",
+      "age": 3
+    },
+    {
+      "id": "26",
+      "name": "Chip",
+      "type": "Esquilo",
+      "age": 5
+    },
+    {
+      "id": "27",
+      "name": "Dale",
+      "type": "Esquilo",
+      "age": 5
+    },
+    {
+      "id": "28",
+      "name": "Odie",
+      "type": "Cão",
+      "age": 6
+    },
+    {
+      "id": "29",
+      "name": "Felicity Fox",
+      "type": "Raposa",
+      "age": 4
+    },
+    {
+      "id": "30",
+      "name": "Bugs Bunny",
+      "type": "Coelho",
+      "age": 80
+    },
+    {
+      "id": "31",
+      "name": "Gromit",
+      "type": "Cão",
+      "age": 6
+    },
+    {
+      "id": "32",
+      "name": "Nick Wilde",
+      "type": "Raposa",
+      "age": 5
+    },
+    {
+      "id": "33",
+      "name": "Judy Hopps",
+      "type": "Coelha",
+      "age": 3
+    },
+    {
+      "id": "34",
+      "name": "Dumbo",
+      "type": "Elefante",
+      "age": 5
+    },
+    {
+      "id": "35",
+      "name": "Timon",
+      "type": "Suricata",
+      "age": 6
+    },
+    {
+      "id": "36",
+      "name": "Pumba",
+      "type": "Javali",
+      "age": 6
+    },
+    {
+      "id": "37",
+      "name": "Nala",
+      "type": "Leoa",
+      "age": 4
+    },
+    {
+      "id": "38",
+      "name": "Scar",
+      "type": "Leão",
+      "age": 10
+    },
+    {
+      "id": "39",
+      "name": "Rafiki",
+      "type": "Mandril",
+      "age": 20
+    },
+    {
+      "id": "40",
+      "name": "Koda",
+      "type": "Urso",
+      "age": 4
+    },
+    {
+      "id": "41",
+      "name": "Bambi",
+      "type": "Cervo",
+      "age": 3
+    },
+    {
+      "id": "42",
+      "name": "Thumper",
+      "type": "Coelho",
+      "age": 2
+    },
+    {
+      "id": "43",
+      "name": "Daisy Duck",
+      "type": "Pato",
+      "age": 85
+    },
+    {
+      "id": "44",
+      "name": "Corky",
+      "type": "Cão",
+      "age": 6
+    },
+    {
+      "id": "45",
+      "name": "Mufasa",
+      "type": "Leão",
+      "age": 15
+    },
+    {
+      "id": "46",
+      "name": "Simba",
+      "type": "Leão",
+      "age": 5
+    },
+    {
+      "id": "47",
+      "name": "Bambi",
+      "type": "Cervo",
+      "age": 4
+    },
+    {
+      "id": "48",
+      "name": "Angel",
+      "type": "Gato",
+      "age": 3
+    },
+    {
+      "id": "49",
+      "name": "Lady",
+      "type": "Cão",
+      "age": 4
+    },
+    {
+      "id": "50",
+      "name": "Tramp",
+      "type": "Cão",
+      "age": 5
+    },
+    {
+      "id": "51",
+      "name": "Chester",
+      "type": "Gato",
+      "age": 6
+    },
+    {
+      "id": "52",
+      "name": "Panchito",
+      "type": "Pato",
+      "age": 7
+    },
+    {
+      "id": "53",
+      "name": "José Carioca",
+      "type": "Pato",
+      "age": 7
+    },
+    {
+      "id": "54",
+      "name": "Pinky",
+      "type": "Porquinho-da-índia",
+      "age": 2
+    },
+    {
+      "id": "55",
+      "name": "Pumbaa",
+      "type": "Javali",
+      "age": 5
+    },
+    {
+      "id": "56",
+      "name": "Duchess",
+      "type": "Gato",
+      "age": 5
+    },
+    {
+      "id": "57",
+      "name": "Thomas O'Malley",
+      "type": "Gato",
+      "age": 6
+    },
+    {
+      "id": "58",
+      "name": "Snowball",
+      "type": "Coelho",
+      "age": 3
+    },
+    {
+      "id": "59",
+      "name": "Pikachu",
+      "type": "Pokémon",
+      "age": 4
+    },
+    {
+      "id": "60",
+      "name": "Dug",
+      "type": "Cão",
+      "age": 5
+    },
+    {
+      "id": "61",
+      "name": "Cheshire Cat",
+      "type": "Gato",
+      "age": 100
+    },
+    {
+      "id": "62",
+      "name": "Perry the Platypus",
+      "type": "Ornitorrinco",
+      "age": 5
+    },
+    {
+      "id": "63",
+      "name": "Bingo",
+      "type": "Cão",
+      "age": 4
+    },
+    {
+      "id": "64",
+      "name": "Rolly",
+      "type": "Cão",
+      "age": 3
+    },
+    {
+      "id": "65",
+      "name": "Lassie",
+      "type": "Collie",
+      "age": 10
+    },
+    {
+      "id": "66",
+      "name": "Puss in Boots",
+      "type": "Gato",
+      "age": 10
+    },
+    {
+      "id": "67",
+      "name": "Kimba",
+      "type": "Leão",
+      "age": 5
+    },
+    {
+      "id": "68",
+      "name": "Gus Gus",
+      "type": "Rato",
+      "age": 2
+    },
+    {
+      "id": "69",
+      "name": "Basil",
+      "type": "Rato",
+      "age": 6
+    },
+    {
+      "id": "70",
+      "name": "Daisy",
+      "type": "Ganso",
+      "age": 5
+    },
+    {
+      "id": "71",
+      "name": "Foghorn Leghorn",
+      "type": "Galo",
+      "age": 10
+    },
+    {
+      "id": "72",
+      "name": "Beaver",
+      "type": "Castor",
+      "age": 5
+    },
+    {
+      "id": "73",
+      "name": "Panda",
+      "type": "Urso",
+      "age": 5
+    },
+    {
+      "id": "74",
+      "name": "Ariel",
+      "type": "Peixe",
+      "age": 7
+    },
+    {
+      "id": "75",
+      "name": "Marlin",
+      "type": "Peixe-palhaço",
+      "age": 6
+    },
+    {
+      "id": "76",
+      "name": "Dory",
+      "type": "Peixe",
+      "age": 4
+    },
+    {
+      "id": "77",
+      "name": "Nemo",
+      "type": "Peixe-palhaço",
+      "age": 3
+    },
+    {
+      "id": "78",
+      "name": "Flounder",
+      "type": "Peixe",
+      "age": 4
+    },
+    {
+      "id": "79",
+      "name": "Sebastian",
+      "type": "Caranguejo",
+      "age": 6
+    },
+    {
+      "id": "80",
+      "name": "Mufasa",
+      "type": "Leão",
+      "age": 10
+    },
+    {
+      "id": "81",
+      "name": "Timon",
+      "type": "Suricata",
+      "age": 6
+    },
+    {
+      "id": "82",
+      "name": "Pumba",
+      "type": "Javali",
+      "age": 6
+    },
+    {
+      "id": "83",
+      "name": "Rafiki",
+      "type": "Mandril",
+      "age": 20
+    },
+    {
+      "id": "84",
+      "name": "Ferdinand",
+      "type": "Touro",
+      "age": 5
+    },
+    {
+      "id": "85",
+      "name": "Louie",
+      "type": "Macaco",
+      "age": 7
+    },
+    {
+      "id": "86",
+      "name": "Heihei",
+      "type": "Galo",
+      "age": 3
+    },
+    {
+      "id": "87",
+      "name": "Pascal",
+      "type": "Lagarto",
+      "age": 2
+    },
+    {
+      "id": "88",
+      "name": "Zazu",
+      "type": "Iguana",
+      "age": 8
+    },
+    {
+      "id": "89",
+      "name": "Yzma",
+      "type": "Leoa",
+      "age": 50
+    },
+    {
+      "id": "90",
+      "name": "Kuzco",
+      "type": "Lama",
+      "age": 5
+    },
+    {
+      "id": "91",
+      "name": "Panchito",
+      "type": "Pato",
+      "age": 7
+    },
+    {
+      "id": "92",
+      "name": "José Carioca",
+      "type": "Pato",
+      "age": 7
+    },
+    {
+      "id": "93",
+      "name": "Rocco",
+      "type": "Cão",
+      "age": 5
+    },
+    {
+      "id": "94",
+      "name": "Rocky",
+      "type": "Esquilo",
+      "age": 3
+    },
+    {
+      "id": "95",
+      "name": "Bobo",
+      "type": "Urso",
+      "age": 4
+    },
+    {
+      "id": "96",
+      "name": "Coco",
+      "type": "Papagaio",
+      "age": 4
+    },
+    {
+      "id": "97",
+      "name": "Fifi",
+      "type": "Cão",
+      "age": 5
+    },
+    {
+      "id": "98",
+      "name": "Pip",
+      "type": "Pato",
+      "age": 3
+    },
+    {
+      "id": "99",
+      "name": "Nala",
+      "type": "Leoa",
+      "age": 4
+    },
+    {
+      "id": "100",
+      "name": "Simba",
+      "type": "Leão",
+      "age": 5
+    }
   ]
 }
