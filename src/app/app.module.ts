@@ -15,6 +15,7 @@ import { ChangerNumberComponent } from './components/changer-number/changer-numb
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { PipesComponent } from './components/pipes/pipes.component';
 import { TowWayBindingComponent } from './components/tow-way-binding/tow-way-binding.component';
+import { ItemDetailComponent } from './components/item-detail/item-detail.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { TowWayBindingComponent } from './components/tow-way-binding/tow-way-bin
     ChangerNumberComponent,
     ListRenderComponent,
     PipesComponent,
-    TowWayBindingComponent
+    TowWayBindingComponent,
+    ItemDetailComponent
   ],
   imports: [
     BrowserModule, FormsModule,

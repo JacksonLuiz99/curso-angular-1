@@ -11,6 +11,7 @@ import { IfRenderComponent } from "./components/if-render/if-render.component";
 import { ParentDataComponent } from "./components/parent-data/parent-data.component";
 import { PipesComponent } from "./components/pipes/pipes.component";
 import { TowWayBindingComponent } from "./components/tow-way-binding/tow-way-binding.component";
+import { ItemDetailComponent } from "./components/item-detail/item-detail.component";
 
 const routes: Routes = [
     { path: '', component: FirstComponentComponent },
@@ -25,6 +26,7 @@ const routes: Routes = [
     { path: 'parent', component: ParentDataComponent},
     { path: 'pipes', component: PipesComponent},
     { path: 'tow', component: TowWayBindingComponent},
+    { path: 'list/:id', component: ItemDetailComponent}
   ];
 
 @NgModule({
